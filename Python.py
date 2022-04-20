@@ -1,4 +1,2 @@
-a = 6+6+4+3+5+\
-5+3+3+6+7+\
-6
-print(a)
+#A leader is ment to surffet but as time goes on all the pain will disappere and joy will soon emerge
+
