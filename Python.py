@@ -3,5 +3,39 @@
 #You have to do something that will atract the next follower
 
 #'*functions
-print(444/1)
 # orders of number
+
+#let's assume that you make that app and it hold's the data of many people but the on of the poeple in the
+#was having 20$ and then he spent some so we could simpy activate it buy doing this below
+
+#let's make some people happy
+
+import random
+random_numbers = random.randint(1,200)
+random = random.randint(1,5)
+random_text = ""
+
+if random == 1:
+    random_text = f"you're the most butifull person i have ever seen you you smile."
+if random == 2:
+    random_text = f"Keep smiling, because life is a beautiful thing and there's so much to smile about."
+if random == 3:
+    random_text = f"Life is either a daring adventure or nothing at all. your luck number"
+print(f"{random_text} your lucy number is : {random_numbers}")
+
+
+
+
+
+#will be updated later
+
+
+
+
+
+
+
+
+
+
+
