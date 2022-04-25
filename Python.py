@@ -1,3 +1,4 @@
+# Python for non - programmers
 #A leader is ment to surffet but as time goes on all the pain will disappere and joy will soon emerge
 
 #You have to do something that will atract the next follower
@@ -211,13 +212,52 @@ match exactly, so 'a' matches 'a', but does not match 'A'.(Mnemonic: this is the
 
 #input
 
-some_text = input("input some text ")
-prompt = input("enter 1 to uppercase or two to lowercase ")
-
-if prompt == "1":
-    print(some_text.upper())
-elif prompt == "2":
-    print(some_text.lower())
+# some_text = input("input some text ")
+# prompt = input("enter 1 to uppercase or two to lowercase ")
+#
+# if prompt == "1":
+#     print(some_text.upper())
+# elif prompt == "2":
+#     print(some_text.lower())
 
 
 # python how do computer's read function
+# A function that can cheack the len of your name
+
+
+# functions for len
+# functions for randomizing object either number or letters
+
+#len
+# def len(name):
+#     return len(name)
+# name_return = len("ibrahim")
+#
+#
+# user = input("what is your name? ")
+# print(name_return(user))
+
+# guesing game
+import random
+import time
+print("Hi am going to pick a number between 1 and 100")
+time.sleep(2)
+print("Picking a number...")
+time.sleep(2)
+guess = int(input("what is your guess? "))
+guess_count = 1
+correct_number = random.randint(1,100)
+
+while guess != correct_number:
+    guess_count += 1
+    if guess < correct_number:
+        guess = int(input("you need to guess heigher: "))
+    else:
+        guess = int(input("you need to guess lower"))
+
+print(f"congrat, The right answer was {correct_number} and it took you {guess_count} guesses")
+
+
+
+
+
